@@ -144,6 +144,8 @@ Seneca()
 
 ## More Examples
 
+### Running
+
 To run normally, say in a container, use
 
 ```sh
@@ -160,6 +162,8 @@ $ node microservice.js --seneca.test
 ```
 
 ## Motivation
+
+### Why we built this?
 
 So that it doesn't matter,
 

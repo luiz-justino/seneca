@@ -1,7 +1,14 @@
 ![Seneca](http://senecajs.org/files/assets/seneca-logo.png)
-> A [Seneca.js][] plugin
+> A [Seneca.js](http://senecajs.org) plugin
 
 # seneca
+
+[![npm version](https://img.shields.io/npm/v/seneca.svg)](https://npmjs.com/package/seneca)
+[![build](https://github.com/senecajs/seneca/actions/workflows/build.yml/badge.svg)](https://github.com/senecajs/seneca/actions/workflows/build.yml)
+[![Coverage Status](https://coveralls.io/repos/senecajs/seneca/badge.svg?branch=master&service=github)](https://coveralls.io/github/senecajs/seneca?branch=master)
+[![Known Vulnerabilities](https://snyk.io/test/github/senecajs/seneca/badge.svg)](https://snyk.io/test/github/senecajs/seneca)
+[![DeepScan grade](https://deepscan.io/api/teams/5016/projects/6816/branches/59148/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=5016&pid=6816&bid=59148)
+[![Maintainability](https://api.codeclimate.com/v1/badges/3a95be9ab6432c620bea/maintainability)](https://codeclimate.com/github/senecajs/seneca/maintainability)
 
 | ![Voxgig](https://www.voxgig.com/res/img/vgt01r.png) | This open source module is sponsored and supported by [Voxgig](https://www.voxgig.com). |
 |---|---|
@@ -102,14 +109,17 @@ Seneca is a microservices toolkit for Node.js. It helps you write clean, organiz
 
 If you're using this module and need help, you can:
 
-- Post a [github issue][]
-- Tweet to [@senecajs][]
+- Post a [github issue](https://github.com/senecajs/seneca/issues)
+- Tweet to [@senecajs](http://twitter.com/senecajs)
+- Ask on the [Gitter](https://gitter.im/senecajs/seneca)
 
 ## API
 
 See [senecajs.org](http://senecajs.org) for full API documentation.
 
 ## Contributing
+
+The [Senecajs org](https://github.com/senecajs/) encourages open participation. If you feel you can help in any way, be it with documentation, examples, extra testing, or new features please get in touch.
 
 The [Senecajs org][] encourages open participation. If you feel you can help in any way, be it with documentation, examples, extra testing, or new features please get in touch.
 

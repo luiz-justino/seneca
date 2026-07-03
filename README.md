@@ -7,6 +7,7 @@
 # Seneca
 
 [![npm version](https://img.shields.io/npm/v/seneca.svg)](https://npmjs.com/package/seneca)
+[![NpmFigs][BadgeNpmFigs]][Npm]
 [![build](https://github.com/senecajs/seneca/actions/workflows/build.yml/badge.svg)](https://github.com/senecajs/seneca/actions/workflows/build.yml)
 [![Coveralls][BadgeCoveralls]][Coveralls]
 [![Known Vulnerabilities](https://snyk.io/test/github/senecajs/seneca/badge.svg)](https://snyk.io/test/github/senecajs/seneca)
@@ -403,6 +404,7 @@ Seneca is sponsored and supported by [Voxgig](https://www.voxgig.com/).
 Copyright (c) 2010-2018 Richard Rodger and other contributors;
 Licensed under [MIT][Lic].
 
+[BadgeNpmFigs]: https://img.shields.io/npm/dm/seneca.svg?maxAge=2592000
 [BadgeCoveralls]: https://coveralls.io/repos/senecajs/seneca/badge.svg?branch=master&service=github
 [BadgeDeepScan]: https://deepscan.io/api/teams/5016/projects/6816/branches/59148/badge/grade.svg
 [BadgeCodeClimate]: https://api.codeclimate.com/v1/badges/3a95be9ab6432c620bea/maintainability

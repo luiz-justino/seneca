@@ -1,19 +1,17 @@
 ![Logo][]
 > A Node.js toolkit for Microservice architectures
 
-
 | ![Voxgig](https://www.voxgig.com/res/img/vgt01r.png) | This open source module is sponsored and supported by [Voxgig](https://www.voxgig.com). |
 |---|---|
 
-
 # Seneca
-[![Npm][BadgeNpm]][Npm]
-[![NpmFigs][BadgeNpmFigs]][Npm]
-[![Travis][BadgeTravis]][Travis]
+
+[![npm version](https://img.shields.io/npm/v/seneca.svg)](https://npmjs.com/package/seneca)
+[![build](https://github.com/senecajs/seneca/actions/workflows/build.yml/badge.svg)](https://github.com/senecajs/seneca/actions/workflows/build.yml)
 [![Coveralls][BadgeCoveralls]][Coveralls]
+[![Known Vulnerabilities](https://snyk.io/test/github/senecajs/seneca/badge.svg)](https://snyk.io/test/github/senecajs/seneca)
 [![DeepScan][BadgeDeepScan]][DeepScan]
 [![CodeClimate][BadgeCodeClimate]][CodeClimate]
-[![Gitter][BadgeGitter]][Gitter]
 
 - __Lead Maintainer:__ [Richard Rodger][Lead]
 - __Sponsor:__ [voxgig][Sponsor]
@@ -55,9 +53,10 @@ If you are new to Seneca in general, please take a look at [senecajs.org][Org]. 
 everything from tutorials to sample apps to help get you up and running quickly.
 
 Seneca's source can be read in an annotated fashion by running `npm run annotate`. An
-annotated version of each file will be generated in `./docs/`.
+annotated version of each file will be generated in `./docs/`
 
 ## Install
+
 To install via npm,
 
 ```
@@ -142,8 +141,7 @@ Seneca()
 // null { tag: 'rejector' }
 ```
 
-
-## Running
+## More Examples
 
 To run normally, say in a container, use
 
@@ -160,8 +158,7 @@ To run in test mode, with human-readable, full debug logs, use:
 $ node microservice.js --seneca.test
 ```
 
-
-## Why we built this?
+## Motivation
 
 So that it doesn't matter,
 
@@ -366,6 +363,18 @@ In this case, you provide different implementations for different patterns. This
 isolate complexity into well-defined places. It also means you can deal with special
 cases very easily.
 
+## Support
+
+If you're using this module and need help, you can:
+
+- Post a [github issue][Issue]
+- Tweet to [@senecajs][Tweet]
+- Ask on the [Gitter][Gitter]
+
+## API
+
+See [senecajs.org][Org] for full API documentation.
+
 ## Contributing
 
 The [Senecajs org][Org] encourages participation. If you feel you can help in any way, be
@@ -387,21 +396,16 @@ To obtain a coverage report,
 npm run coverage; open docs/coverage.html
 ```
 
+## Background
 
+Seneca is sponsored and supported by [Voxgig](https://www.voxgig.com/).
 
-## License
 Copyright (c) 2010-2018 Richard Rodger and other contributors;
-Licensed under __[MIT][Lic]__.
-
-
+Licensed under [MIT][Lic].
 
 [BadgeCoveralls]: https://coveralls.io/repos/senecajs/seneca/badge.svg?branch=master&service=github
 [BadgeDeepScan]: https://deepscan.io/api/teams/5016/projects/6816/branches/59148/badge/grade.svg
 [BadgeCodeClimate]: https://api.codeclimate.com/v1/badges/3a95be9ab6432c620bea/maintainability
-[BadgeNpm]: https://badge.fury.io/js/seneca.svg
-[BadgeGitter]: https://badges.gitter.im/senecajs/seneca.svg
-[BadgeNpmFigs]: https://img.shields.io/npm/dm/seneca.svg?maxAge=2592000
-[BadgeTravis]: https://travis-ci.org/senecajs/seneca.svg?branch=master
 [CoC]: http://senecajs.org/code-of-conduct
 [Contrib]: http://senecajs.org/contribute
 [Coveralls]: https://coveralls.io/github/senecajs/seneca?branch=master
@@ -416,12 +420,8 @@ Licensed under __[MIT][Lic]__.
 [Org]: http://senecajs.org/
 [Pull]: https://github.com/senecajs/seneca/pulls
 [Sponsor]: http://www.voxgig.com
-[Travis]: https://travis-ci.org/senecajs/seneca?branch=master
 [Tweet]: https://twitter.com/senecajs
-
-[Jsonic]: https//github.com/rjrodger/jsonic
+[Jsonic]: https://github.com/rjrodger/jsonic
 [Lightning]: http://aws.amazon.com/message/67457/
 [Plugins]: https://github.com/search?utf8=%E2%9C%93&q=seneca&type=Repositories&ref=searchresults
 [taomicro]: https://bitly.com/rrtaomicro
-
-

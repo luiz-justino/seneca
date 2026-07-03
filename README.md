@@ -4,7 +4,7 @@
 | ![Voxgig](https://www.voxgig.com/res/img/vgt01r.png) | This open source module is sponsored and supported by [Voxgig](https://www.voxgig.com). |
 |---|---|
 
-# Seneca
+# seneca
 
 [![npm version](https://img.shields.io/npm/v/seneca.svg)](https://npmjs.com/package/seneca)
 [![NpmFigs][BadgeNpmFigs]][Npm]

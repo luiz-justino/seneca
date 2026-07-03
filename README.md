@@ -126,7 +126,7 @@ npm run test
 
 Seneca is sponsored and supported by [Voxgig](https://www.voxgig.com).
 
-[abbreviated form][Jsonic] of JSON. In fact, you
+[abbreviated form](https://github.com/rjrodger/jsonic) of JSON. In fact, you
 [Programmer Anarchy](http://vimeo.com/43690647).
 [Coveralls]: https://coveralls.io/github/senecajs/seneca?branch=master
 [DeepScan]: https://deepscan.io/dashboard#view=project&tid=5016&pid=6816&bid=59148

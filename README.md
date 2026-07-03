@@ -26,10 +26,8 @@ npm install seneca
 
 var Seneca = require('seneca')
 
-
 // Functionality in seneca is composed into simple
 // plugins that can be loaded into seneca instances.
-
 
 function rejector () {
   this.add('cmd:run', (msg, done) => {
@@ -51,10 +49,8 @@ function local () {
   })
 }
 
-
 // Services can listen for messages using a variety of
 // transports. In process and http are included by default.
-
 
 Seneca()
   .use(approver)
@@ -64,11 +60,9 @@ Seneca()
   .use(rejector)
   .listen(8270)
 
-
 // Load order is important, messages can be routed
 // to other services or handled locally. Pins are
 // basically filters over messages
-
 
 function handler (err, reply) {
   console.log(err, reply)
@@ -89,7 +83,6 @@ Seneca()
   .client({port: 8270, pin: 'cmd:run'})
   .use(local)
   .act('cmd:run', handler)
-
 
 // Output
 // null { tag: 'local' }
@@ -121,7 +114,7 @@ See [senecajs.org](http://senecajs.org) for full API documentation.
 
 The [Senecajs org](https://github.com/senecajs/) encourages open participation. If you feel you can help in any way, be it with documentation, examples, extra testing, or new features please get in touch.
 
-The [Senecajs org][] encourages open participation. If you feel you can help in any way, be it with documentation, examples, extra testing, or new features please get in touch.
+The [Senecajs org](https://github.com/senecajs/) encourages open participation. If you feel you can help in any way, be it with documentation, examples, extra testing, or new features please get in touch.
 
 ### Running tests
 
@@ -133,39 +126,9 @@ npm run test
 
 Seneca is sponsored and supported by [Voxgig](https://www.voxgig.com).
 
-[![Npm][BadgeNpm]][Npm]
-[![NpmFigs][BadgeNpmFigs]][Npm]
-[![Travis][BadgeTravis]][Travis]
-[![Coveralls][BadgeCoveralls]][Coveralls]
-[![DeepScan][BadgeDeepScan]][DeepScan]
-[![CodeClimate][BadgeCodeClimate]][CodeClimate]
-[![Gitter][BadgeGitter]][Gitter]
 [abbreviated form][Jsonic] of JSON. In fact, you
 [Programmer Anarchy](http://vimeo.com/43690647).
-[BadgeCoveralls]: https://coveralls.io/repos/senecajs/seneca/badge.svg?branch=master&service=github
-[BadgeDeepScan]: https://deepscan.io/api/teams/5016/projects/6816/branches/59148/badge/grade.svg
-[BadgeCodeClimate]: https://api.codeclimate.com/v1/badges/3a95be9ab6432c620bea/maintainability
-[BadgeNpm]: https://badge.fury.io/js/seneca.svg
-[BadgeGitter]: https://badges.gitter.im/senecajs/seneca.svg
-[BadgeNpmFigs]: https://img.shields.io/npm/dm/seneca.svg?maxAge=2592000
-[BadgeTravis]: https://travis-ci.org/senecajs/seneca.svg?branch=master
-[CoC]: http://senecajs.org/code-of-conduct
-[Contrib]: http://senecajs.org/contribute
 [Coveralls]: https://coveralls.io/github/senecajs/seneca?branch=master
 [DeepScan]: https://deepscan.io/dashboard#view=project&tid=5016&pid=6816&bid=59148
 [CodeClimate]: https://codeclimate.com/github/senecajs/seneca/maintainability
-[Gitter]: https://gitter.im/senecajs/seneca
-[Issue]: https://github.com/senecajs/seneca/issues/new
-[Lead]: https://github.com/rjrodger
-[Lic]: ./LICENSE
-[Logo]: http://senecajs.org/files/assets/seneca-logo.jpg
 [Npm]: https://www.npmjs.com/package/seneca
-[Org]: http://senecajs.org/
-[Pull]: https://github.com/senecajs/seneca/pulls
-[Sponsor]: http://www.voxgig.com
-[Travis]: https://travis-ci.org/senecajs/seneca?branch=master
-[Tweet]: https://twitter.com/senecajs
-[Jsonic]: https//github.com/rjrodger/jsonic
-[Lightning]: http://aws.amazon.com/message/67457/
-[Plugins]: https://github.com/search?utf8=%E2%9C%93&q=seneca&type=Repositories&ref=searchresults
-[taomicro]: https://bitly.com/rrtaomicro
